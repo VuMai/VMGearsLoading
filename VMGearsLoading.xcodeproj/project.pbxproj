@@ -14,6 +14,16 @@
 		27E21A0B1B04D1CA00C03414 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E21A0A1B04D1CA00C03414 /* Images.xcassets */; };
 		27E21A0E1B04D1CA00C03414 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E21A0C1B04D1CA00C03414 /* LaunchScreen.xib */; };
 		27E21A1A1B04D1CA00C03414 /* VMGearsLoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E21A191B04D1CA00C03414 /* VMGearsLoadingTests.m */; };
+		27E21A2E1B04D2AA00C03414 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E21A251B04D2AA00C03414 /* background@2x.png */; };
+		27E21A2F1B04D2AA00C03414 /* background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E21A261B04D2AA00C03414 /* background@3x.png */; };
+		27E21A301B04D2AA00C03414 /* gears 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E21A271B04D2AA00C03414 /* gears 1@2x.png */; };
+		27E21A311B04D2AA00C03414 /* gears 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E21A281B04D2AA00C03414 /* gears 1@3x.png */; };
+		27E21A321B04D2AA00C03414 /* gears 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E21A291B04D2AA00C03414 /* gears 2@2x.png */; };
+		27E21A331B04D2AA00C03414 /* gears 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E21A2A1B04D2AA00C03414 /* gears 2@3x.png */; };
+		27E21A341B04D2AA00C03414 /* gears 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E21A2B1B04D2AA00C03414 /* gears 3@2x.png */; };
+		27E21A351B04D2AA00C03414 /* gears 3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E21A2C1B04D2AA00C03414 /* gears 3@3x.png */; };
+		27E21A361B04D2AA00C03414 /* imgDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E21A2D1B04D2AA00C03414 /* imgDemo.png */; };
+		27E21A3B1B04D2F300C03414 /* VMGearLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E21A3A1B04D2F300C03414 /* VMGearLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,17 @@
 		27E21A131B04D1CA00C03414 /* VMGearsLoadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VMGearsLoadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E21A181B04D1CA00C03414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27E21A191B04D1CA00C03414 /* VMGearsLoadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMGearsLoadingTests.m; sourceTree = "<group>"; };
+		27E21A251B04D2AA00C03414 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		27E21A261B04D2AA00C03414 /* background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@3x.png"; sourceTree = "<group>"; };
+		27E21A271B04D2AA00C03414 /* gears 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 1@2x.png"; sourceTree = "<group>"; };
+		27E21A281B04D2AA00C03414 /* gears 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 1@3x.png"; sourceTree = "<group>"; };
+		27E21A291B04D2AA00C03414 /* gears 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 2@2x.png"; sourceTree = "<group>"; };
+		27E21A2A1B04D2AA00C03414 /* gears 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 2@3x.png"; sourceTree = "<group>"; };
+		27E21A2B1B04D2AA00C03414 /* gears 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 3@2x.png"; sourceTree = "<group>"; };
+		27E21A2C1B04D2AA00C03414 /* gears 3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears 3@3x.png"; sourceTree = "<group>"; };
+		27E21A2D1B04D2AA00C03414 /* imgDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgDemo.png; sourceTree = "<group>"; };
+		27E21A391B04D2F300C03414 /* VMGearLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMGearLoadingView.h; sourceTree = "<group>"; };
+		27E21A3A1B04D2F300C03414 /* VMGearLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMGearLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +102,8 @@
 		27E219FC1B04D1CA00C03414 /* VMGearsLoading */ = {
 			isa = PBXGroup;
 			children = (
+				27E21A381B04D2C700C03414 /* VMGearsLoading */,
+				27E21A241B04D2AA00C03414 /* Images */,
 				27E21A011B04D1CA00C03414 /* AppDelegate.h */,
 				27E21A021B04D1CA00C03414 /* AppDelegate.m */,
 				27E21A041B04D1CA00C03414 /* ViewController.h */,
@@ -117,6 +140,31 @@
 				27E21A181B04D1CA00C03414 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27E21A241B04D2AA00C03414 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				27E21A251B04D2AA00C03414 /* background@2x.png */,
+				27E21A261B04D2AA00C03414 /* background@3x.png */,
+				27E21A271B04D2AA00C03414 /* gears 1@2x.png */,
+				27E21A281B04D2AA00C03414 /* gears 1@3x.png */,
+				27E21A291B04D2AA00C03414 /* gears 2@2x.png */,
+				27E21A2A1B04D2AA00C03414 /* gears 2@3x.png */,
+				27E21A2B1B04D2AA00C03414 /* gears 3@2x.png */,
+				27E21A2C1B04D2AA00C03414 /* gears 3@3x.png */,
+				27E21A2D1B04D2AA00C03414 /* imgDemo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		27E21A381B04D2C700C03414 /* VMGearsLoading */ = {
+			isa = PBXGroup;
+			children = (
+				27E21A391B04D2F300C03414 /* VMGearLoadingView.h */,
+				27E21A3A1B04D2F300C03414 /* VMGearLoadingView.m */,
+			);
+			name = VMGearsLoading;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +249,16 @@
 			files = (
 				27E21A091B04D1CA00C03414 /* Main.storyboard in Resources */,
 				27E21A0E1B04D1CA00C03414 /* LaunchScreen.xib in Resources */,
+				27E21A311B04D2AA00C03414 /* gears 1@3x.png in Resources */,
+				27E21A301B04D2AA00C03414 /* gears 1@2x.png in Resources */,
+				27E21A341B04D2AA00C03414 /* gears 3@2x.png in Resources */,
+				27E21A2E1B04D2AA00C03414 /* background@2x.png in Resources */,
+				27E21A351B04D2AA00C03414 /* gears 3@3x.png in Resources */,
+				27E21A2F1B04D2AA00C03414 /* background@3x.png in Resources */,
+				27E21A361B04D2AA00C03414 /* imgDemo.png in Resources */,
 				27E21A0B1B04D1CA00C03414 /* Images.xcassets in Resources */,
+				27E21A321B04D2AA00C03414 /* gears 2@2x.png in Resources */,
+				27E21A331B04D2AA00C03414 /* gears 2@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E21A061B04D1CA00C03414 /* ViewController.m in Sources */,
+				27E21A3B1B04D2F300C03414 /* VMGearLoadingView.m in Sources */,
 				27E21A031B04D1CA00C03414 /* AppDelegate.m in Sources */,
 				27E21A001B04D1CA00C03414 /* main.m in Sources */,
 			);

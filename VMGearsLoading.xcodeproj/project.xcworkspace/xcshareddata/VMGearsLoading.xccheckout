@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D8AECC8A-4136-43C1-8EDF-9DDE7767D7E3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>174F841209D7EB88B2D9848C4AD733BBE4CD184F</key>
+		<string>https://github.com/VuMai/VMGearsLoading.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VMGearsLoading.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>174F841209D7EB88B2D9848C4AD733BBE4CD184F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/VuMai/VMGearsLoading.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>174F841209D7EB88B2D9848C4AD733BBE4CD184F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>174F841209D7EB88B2D9848C4AD733BBE4CD184F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VMGearsLoading</string>
+		</dict>
+	</array>
+</dict>
+</plist>

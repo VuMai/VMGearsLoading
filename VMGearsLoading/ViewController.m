@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "VMGearLoadingView.h"
 
 @interface ViewController ()
 
@@ -16,8 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self loadLoadingView];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+-(void)loadLoadingView
+{
+    VMGearLoadingView *loading = [[VMGearLoadingView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:loading];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
