@@ -10,6 +10,8 @@
 #import "VMGearLoadingView.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *butShow;
+- (IBAction)clickButShow:(id)sender;
 
 @end
 
@@ -23,14 +25,22 @@
 
 -(void)loadLoadingView
 {
-    VMGearLoadingView *loading = [[VMGearLoadingView alloc] initWithFrame:self.view.frame];
-    [self.view addSubview:loading];
+    [VMGearLoadingView showGearLoadingForView:self.view];
+    
+    [self performSelector:@selector(hideLoadingView) withObject:nil afterDelay:5];
 }
 
+-(void)hideLoadingView
+{
+    [VMGearLoadingView hideGearLoadingForView:self.view];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)clickButShow:(id)sender {
+    [self loadLoadingView];
+}
 @end

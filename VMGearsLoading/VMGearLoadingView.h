@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface VMGearLoadingView : UIView
-
++ (instancetype)showGearLoadingForView:(UIView *)view;
++ (BOOL)hideGearLoadingForView:(UIView *)view;
 @end

@@ -12,6 +12,8 @@
 @property (nonatomic, strong)UIImageView *imgGear1;
 @property (nonatomic, strong)UIImageView *imgGear2;
 @property (nonatomic, strong)UIImageView *imgGear3;
+@property (nonatomic) BOOL removeFromSuperViewOnHide;
+
 @end
 
 @implementation VMGearLoadingView
@@ -70,6 +72,55 @@
     
     [view.layer addAnimation:rotationAnimation forKey:@"rotationAnimation"];
     [CATransaction commit];
+}
+
+- (id)initWithView:(UIView *)view {
+    return [self initWithFrame:view.bounds];
+}
+
++ (instancetype)showGearLoadingForView:(UIView *)view {
+    VMGearLoadingView *gear = [[self alloc] initWithView:view];
+    [gear setAlpha:0];
+    [view addSubview:gear];
+    [gear showViewWithAnimate:YES];
+    return nil;
+}
+
++ (BOOL)hideGearLoadingForView:(UIView *)view {
+    VMGearLoadingView *gearLoading = [self gearLoadingForView:view];
+    if (gearLoading != nil) {
+        [gearLoading hideViewWithAnimate:YES];
+        return YES;
+    }
+    return NO;
+}
+
++ (instancetype)gearLoadingForView:(UIView *)view {
+    NSEnumerator *subviewsEnum = [view.subviews reverseObjectEnumerator];
+    for (UIView *subview in subviewsEnum) {
+        if ([subview isKindOfClass:self]) {
+            return (VMGearLoadingView *)subview;
+        }
+    }
+    return nil;
+}
+
+-(void)showViewWithAnimate:(BOOL)animate
+{
+    [UIView animateWithDuration:0.3 animations:^{
+        [self setAlpha:1];
+    } completion:^(BOOL finished) {
+        
+    }];
+}
+
+-(void)hideViewWithAnimate:(BOOL)animate
+{
+    [UIView animateWithDuration:0.3 animations:^{
+        [self setAlpha:0];
+    } completion:^(BOOL finished) {
+        [self removeFromSuperview];
+    }];
 }
 
 @end
