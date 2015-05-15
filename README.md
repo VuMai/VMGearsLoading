@@ -1,5 +1,38 @@
+
+
 # VMGearsLoading
-Gears Loading with animation view
+
+#Author
+VuMai
+vumai.me
+
+## Overview ##
+
+VMGearsLoading is an iOS control is show multy gears with transparent background. It has a beautiful. 
+
+## How to use ##
+
+First, you need to copy 2 files VMGearLoadingView.h/.m to your project. Then, import them to your class
+
+```objc
+#import "VMGearLoadingView.h"
+```
+
+now you add this method:
+
+```objc
+[VMGearLoadingView showGearLoadingForView:self.view];
+```
+
+add remove MVGearsLoading with:
+
+```objc
+[VMGearLoadingView hideGearLoadingForView:self.view];
+```
+
+## Release notes
+
+Version 1.0
 
 ## MIT License
 Copyright (c) 2015 VuMai
