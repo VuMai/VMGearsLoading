@@ -13,7 +13,7 @@ VMGearsLoading is an iOS control is show multiple gears with transparent backgro
 
 ## How to use ##
 
-First, you need to copy 2 files VMGearLoadingView.h/.m to your project. Then, import them to your class
+First, you need to copy 2 files VMGearLoadingView.h/.m and Images folder to your project. Then, import them to your class
 
 ```objc
 #import "VMGearLoadingView.h"
